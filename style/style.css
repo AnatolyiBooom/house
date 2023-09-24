@@ -638,8 +638,8 @@ button {
 
 @media(max-width: 640px) {
     .container {
-        padding-left: 33px;
-        padding-right: 33px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .header__content {
@@ -705,5 +705,15 @@ button {
     .footer__license {
         flex-direction: initial;
         justify-content: center;
+    }
+
+    .production__all-btn {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .production__btn:not(:last-child) {
+        margin-right: 0;
     }
 }
